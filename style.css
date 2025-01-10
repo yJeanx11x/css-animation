@@ -1,0 +1,20 @@
+body{
+        background-color: violet;
+}
+.test{
+        display: grid;
+        gap: .2rem;
+}
+.qdd{
+width: 4rem;
+height: 4rem;
+background-color: white;
+transition-property:opacity,transform;
+transition-duration:0.5s;
+}
+
+.qdd:hover{
+        opacity: 0.4;
+transform:  translatex(1.4rem);
+
+}
