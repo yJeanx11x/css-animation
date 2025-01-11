@@ -4,18 +4,24 @@ body{
 .test{
         display: grid;
         gap: .2rem;
+        display: flex;
+        justify-content: center;
 }
 .qdd{
 width: 4rem;
 height: 4rem;
 background-color: white;
-transition-property:opacity,transform;
-transition-duration:0.5s;
-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+/* transition-property:opacity,transform; */
+/* transition-duration:0.5s;
+transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
+
+/* modo simplificado */
+transition: opacity 1s ease,transform 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+
 }
 
 .qdd:hover{
         opacity: 0.4;
-transform:  translatex(1.4rem);
+transform:  translatey(-0.4rem);
 
 }
