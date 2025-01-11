@@ -6,10 +6,12 @@ body{
         gap: .2rem;
         display: flex;
         justify-content: center;
+
 }
 .qdd{
-width: 4rem;
-height: 4rem;
+width: 2rem;
+height: 2rem;
+border-radius: 50%;
 background-color: white;
 /* transition-property:opacity,transform; */
 /* transition-duration:0.5s;
@@ -25,3 +27,45 @@ transition: opacity 1s ease,transform 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.95
 transform:  translatey(-0.4rem);
 
 }
+#qd1{
+animation-name: teste;
+animation-duration: 1s;
+}
+@keyframes teste{
+        40%{
+                transform: translatey(80%);
+        }
+}
+#qd2{
+        animation-name: teste;
+        animation-duration: 1s;
+        animation-delay: 1s;
+        }
+        @keyframes teste{
+                40%{
+                        transform: translatey(80%);
+                }
+        }
+        #qd3{
+                animation-name: teste;
+                animation-duration: 1s;
+                animation-delay: 2s;
+
+                }
+                @keyframes teste{
+                        40%{
+                                transform: translatey(80%);
+                        }
+                }
+                #qd4{
+                        animation-name: teste;
+                        animation-duration: 1s;
+                        animation-delay: 3s;
+
+                        }
+                        @keyframes teste{
+                                40%{
+                                        transform: translatey(80%);
+                                }
+                        }
+                        
