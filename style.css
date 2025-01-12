@@ -13,18 +13,13 @@ width: 2rem;
 height: 2rem;
 border-radius: 50%;
 background-color: white;
-/* transition-property:opacity,transform; */
-/* transition-duration:0.5s;
-transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955); */
-
-/* modo simplificado */
-transition: opacity 1s ease,transform 0.4s cubic-bezier(0.455, 0.03, 0.515, 0.955);
-
+animation: teste 1s 2s both infinite alternate ease;
 }
 
 .qdd:hover{
         opacity: 0.4;
-transform:  translatey(-0.4rem);
+        transform:  translatey(-0.40rem);
+        animation-play-state: paused;
 
 }
 #qd1{
@@ -32,14 +27,15 @@ animation-name: teste;
 animation-duration: 1s;
 }
 @keyframes teste{
-        40%{
-                transform: translatey(80%);
+        0%{
+                transform: translatey(100%);
+
         }
 }
-#qd2{
+/* #qd2{
         animation-name: teste;
         animation-duration: 1s;
-        animation-delay: 1s;
+        animation-delay: 2s;
         }
         @keyframes teste{
                 40%{
@@ -49,7 +45,7 @@ animation-duration: 1s;
         #qd3{
                 animation-name: teste;
                 animation-duration: 1s;
-                animation-delay: 2s;
+                animation-delay: 3s;
 
                 }
                 @keyframes teste{
@@ -60,12 +56,8 @@ animation-duration: 1s;
                 #qd4{
                         animation-name: teste;
                         animation-duration: 1s;
-                        animation-delay: 3s;
-
+                        animation-delay: 4s;
+                        text-align: center;
                         }
-                        @keyframes teste{
-                                40%{
-                                        transform: translatey(80%);
-                                }
-                        }
-                        
+                         
+                          */
